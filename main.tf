@@ -14,8 +14,8 @@ module "vpc" {
     public_subnets = var.public_subnets
     private_subnets = var.private_subnets
 
-    enable_nat_gateway = true
-    single_nat_gateway = true
+    #enable_nat_gateway = true
+    #single_nat_gateway = true
 
     tags = {
     }
